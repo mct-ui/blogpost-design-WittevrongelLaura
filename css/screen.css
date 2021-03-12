@@ -10,23 +10,23 @@
     @font-face declarations
 */
 
-@font-face{
-    font-family: "Inter Web";
-    font-weight: 400;
-    src: url("../fonts/Inter-Regular.woff2") format("woff2")
+@font-face {
+  font-family: 'Inter Web';
+  font-weight: 400;
+  src: url('../fonts/Inter-Regular.woff2') format('woff2');
 }
 
-@font-face{
-    font-family: "Inter Web";
-    font-weight: 700;
-    src: url("../fonts/Inter-Bold.woff2") format("woff2")
+@font-face {
+  font-family: 'Inter Web';
+  font-weight: 700;
+  src: url('../fonts/Inter-Bold.woff2') format('woff2');
 }
 
 html {
   font-size: 16px;
   line-height: 1.5;
   /*font-family: "Inter Web", "Helvetica Neue", Helvetica, arial, sans-serif;*/
-  font-family: "droid serif", Georgia, serif;
+  font-family: 'droid serif', Georgia, serif;
   color: #2e3133;
   padding: 48px 24px 24px;
 }
@@ -85,8 +85,11 @@ h3 {
   margin: 0 0 24px;
 }
 
-h1, h2, h3{
-    color: #17181A
+h1,
+h2,
+h3 {
+  font-family: 'Inter Web', 'Helvetica Neue', Helvetica, arial, sans-serif;
+  color: #17181a;
 }
 
 h4,
