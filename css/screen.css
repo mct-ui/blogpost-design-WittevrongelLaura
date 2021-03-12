@@ -82,6 +82,10 @@ h2 {
   margin: 0 0 24px;
 }
 
+*+h2{
+    margin-top: 48px;/*Hiermee selecteer je elke h2 die direct na gelijk welk element komt en pas je een margin-top van 48px toe. Dubbel zo veel om margin-collapsing te voorkomen.*/
+}
+
 h3 {
   font-size: 18px;
   line-height: 24px;
