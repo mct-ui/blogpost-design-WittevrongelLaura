@@ -22,7 +22,7 @@
   src: url('../fonts/Inter-Bold.woff2') format('woff2');
 }
 
-html {
+html, time{
   font-size: 16px;
   line-height: 1.5;
   /*font-family: "Inter Web", "Helvetica Neue", Helvetica, arial, sans-serif;*/
@@ -277,11 +277,21 @@ a:focus {
   }
 }
 
+.c-quote{
+    color: #00B37D;
+    background-color: #F2FAF8;
+    font-family: 'droid serif', Georgia, serif;
+    font-style: italic;
+    font-size: 23px;
+    padding: 10px 25px 10px 25px;
+    margin: 50px 0 50px 0;
+}
+
 /*
     Utilities
 */
-.u-max-width-sm{
-    max-width: 36em;/*kijk naar de parent van deze selector bv 16px fontgrootte = 36*16 = 576*/
+.u-max-width-sm {
+  max-width: 36em; /*kijkt naar de parent van deze selector bv 16px fontgrootte = 36*16 = 576*/
 }
 
 /*
